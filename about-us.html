@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyperGames</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+  <header class="header">
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">HyperGames</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="./" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#product" class="navbar-link skewBg" data-nav-link>Product</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./about-us.html" class="navbar-link skewBg" data-nav-link>About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-box>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
+
+      <button class="search-submit" aria-label="submit search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <button class="search-close" aria-label="close search" data-search-toggler></button>
+    </div>
+  </div>
+  
+  <main>
+    <article>
+      <div class="section-wrapper">
+
+        <!-- 
+          - #LATEST GAME
+        -->
+
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+            <h2 class="h2 section-title">
+               Action <span class="span">Games</span>
+            </h2>
+            <p>Hypergames is known for its high-octane action games that combine intense gameplay, stunning visuals, and innovative mechanics. Our action games are designed to keep players on the edge of their seats, offering challenging missions and thrilling narratives. </p>
+            <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+              <img src="./assets/images/about-1.jpg" width="400" height="470" loading="lazy"
+                alt="White Walker Daily" class="img-cover">
+            </figure>
+          </div>
+          
+          <div class="container" style="padding-top: 100px">
+            <h2 class="h2 section-title">
+               RPGs
+            </h2>
+            <p>We take pride in our deeply immersive role-playing games which offer complex storylines, intricate character development, and expansive worlds. Our RPGs are a blend of traditional elements and modern innovations, providing players with hours of engaging gameplay and storytelling. </p>
+            <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+              <img src="./assets/images/about-2.jpg" width="400" height="470" loading="lazy"
+                alt="White Walker Daily" class="img-cover">
+            </figure>
+          </div>
+          
+          <div class="container" style="padding-top: 100px">
+            <h2 class="h2 section-title">
+               Casual <span class="span">Games</span>
+            </h2>
+            <p>Understanding the growing market for casual gaming, Hypergames develops fun and accessible games that can be enjoyed by players of all ages. These games are perfect for quick sessions, offering relaxation, entertainment, and the joy of gaming without a steep learning curve. </p>
+            <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+              <img src="./assets/images/about-3.jpg" width="400" height="470" loading="lazy"
+                alt="White Walker Daily" class="img-cover">
+            </figure>
+          </div>
+          
+          <div class="container" style="padding-top: 100px">
+            <h2 class="h2 section-title">
+               Virtual Reality <span class="span">VR Games</span>
+            </h2>
+            <p>At the forefront of technological advancements, Hypergames is also pioneering in the field of VR gaming. Our VR titles are designed to provide an immersive experience that is as engaging as it is revolutionary, transporting players into new and exciting worlds. </p>
+            <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+              <img src="./assets/images/about-4.jpg" width="400" height="470" loading="lazy"
+                alt="White Walker Daily" class="img-cover">
+            </figure>
+            <p style="padding-top: 100px">
+              Hypergames operates from a state-of-the-art facility, equipped with the latest in game development technology. Our team comprises industry veterans and talented newcomers, all united by a shared love for gaming and innovation. Together, we continue to explore new ideas and technologies that could redefine what games can be. 
+ 
+As we look to the future, Hypergames remains committed to delivering unforgettable gaming experiences that resonate with and captivate our global audience. Join us on this exciting journey as we continue to explore, create, and inspire through the power of games.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <h2 class="h2">
+              Our <span class="span">Newsletter</span>
+            </h2>
+
+            <form action="" class="newsletter-form">
+
+              <div class="input-wrapper skewBg">
+                <input type="email" name="email_address" aria-label="email" placeholder="Enter your email..." required
+                  class="email-field">
+
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <button type="submit" class="btn newsletter-btn skewBg">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">HyperGames</a>
+
+          <p class="footer-text">
+            HyperGames Studio is a company specializing in producing cutting-edge VR games, offering unique and engaging gaming experiences for players.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Address : 3902 SAN MATEO AVENUE LOS ALAMITOS, CA 90720
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="headset"></ion-icon>
+              </div>
+
+              <a href="tel:+241245654235" class="item-text">Phone : +24 1245 654 235</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+
+              <a href="contact@hypergames.store" class="item-text">Email : contact@hypergames.store</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Products</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Graphics (26)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Backgrounds (11)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fonts (9)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Music (3)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Photography (3)</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Need Help?</p>
+          </li>
+
+          <li>
+            <a href="./term-conditions" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="./privacy-policy.html" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="./refunds-policy.html" class="footer-link">Refund Policy</a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="footer-link">Affiliate</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Use Cases</a>
+          </li> -->
+
+        </ul>
+
+        <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+
+            <p class="footer-list-title">Follow Us</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #3b5998">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #55acee">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #d71e18">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #1565c0">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-newsletter">
+
+            <p class="footer-list-title">Newsletter Sign Up</p>
+
+            <form action="" class="footer-newsletter">
+              <input type="email" name="email_address" aria-label="email" placeholder="Enter your email" required
+                class="email-field">
+
+              <button type="submit" class="footer-btn" aria-label="submit">
+                <ion-icon name="rocket"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 HyperGames. All Right Reserved by <a href="#" class="copyright-link">HyperGames</a>
+        </p>
+
+        <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
+          class="footer-bottom-img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
